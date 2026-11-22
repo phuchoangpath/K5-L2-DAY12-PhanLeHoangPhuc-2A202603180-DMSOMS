@@ -11,3 +11,14 @@ __pycache__/
 *.pyc
 .DS_Store
 .env*
+
+# Cac file bao cao va export le da duoc dong goi tron ven trong file zip nop bai:
+export_final*.zip
+check_*.txt
+disagreement_log.csv
+ir_log.csv
+class_list_v0.md
+self_review.md
+exit_ticket.md
+TEAM.md
+prompts.md
