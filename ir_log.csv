@@ -1,0 +1,7 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,Mất hoàn toàn thông tin màu sắc làm dây an toàn và áo tối màu bị hòa lẫn,seatbelt,Chuyển thuộc tính seatbelt thành unknown do không đủ độ tương phản để khẳng định; đối chiếu hình dạng hình học
+S04_ir,IR_sim,Độ tương phản thấp giữa nôi xách em bé sẫm màu và nền ghế sau màu đen,infant_seat.facing,Khó nhận diện hướng quay trước hay sau của nôi xách; phải zoom kỹ và dựa vào quai xách
+D01,real_IR,Đèn hồng ngoại NIR tạo đốm lóa phản xạ hình tròn trên tròng kính che mất mắt,eye_left / eye_right,Mắt bị đốm lóa che khuất không thấy rõ khe mí nên chọn unknown; các điểm mốc face13 tương ứng đánh cờ occluded
+D03,real_IR,Kính râm tối màu có thể trông gần như trong suốt dưới ánh sáng hồng ngoại gần 940nm,glasses,Dễ bị nhầm kính râm thành kính trắng clear; phải quan sát kỹ gọng kính và độ viền tròng kính
+D04,real_IR,Bóng đổ mạnh ở vùng hốc mắt và dưới cằm do góc chiếu nghiêng của cụm đèn LED NIR,face13.lower_points,Các điểm khóe mí dưới và khóe môi chìm trong vùng bóng tối sâu; bật cờ occluded cho các điểm mốc này
+D06,real_IR,Tài xế cúi đầu góc nghiêng khiến ánh sáng NIR không chiếu tới toàn bộ khuôn mặt,face.eye_left / gaze_zone,Không nhìn rõ trực diện nhãn cầu mắt; hướng nhìn gaze_zone chuyển sang cluster/lap dựa trên hướng nghiêng đầu
